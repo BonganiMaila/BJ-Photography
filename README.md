@@ -43,10 +43,14 @@ It provides an easy access for consumers to buy watches which at times can prove
 ### Index 2
 ![](https://github.com/BonganiMaila/BJ-Photography/blob/main/BJ-Photography/screenshots/index2.png)
 
-### About
-![](https://github.com/BonganiMaila/BJ-Photography/blob/main/BJ-Photography/screenshots/about.png)
+### Profile
+![](https://github.com/BonganiMaila/BJ-Photography/blob/main/BJ-Photography/screenshots/profile.png)
 
+### Testimonial
+![](https://github.com/BonganiMaila/BJ-Photography/blob/main/BJ-Photography/screenshots/testimonial.png)
 
+### Footer
+![](https://github.com/BonganiMaila/BJ-Photography/blob/main/BJ-Photography/screenshots/footer.png)
 
 
 ## Contributors
