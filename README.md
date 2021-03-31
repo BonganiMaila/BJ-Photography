@@ -38,7 +38,7 @@ It provides an easy access for consumers to buy watches which at times can prove
 ## Screenshots of the pages
 
 ### Index
-![](https://github.com/BonganiMaila/)
+![](https://github.com/BonganiMaila/Responsive-Developer-Profile/blob/master/assets/image/light.png)
 
 
 
