@@ -38,11 +38,18 @@ It provides an easy access for consumers to buy watches which at times can prove
 ## Screenshots of the pages
 
 ### Index
-![](https://github.com/BonganiMaila/Responsive-Developer-Profile/blob/master/assets/image/light.png)
+![](https://github.com/BonganiMaila/BJ-Photography/blob/main/BJ-Photography/screenshots/index.png)
+
+### Index 2
+![](https://github.com/BonganiMaila/BJ-Photography/blob/main/BJ-Photography/screenshots/index2.png)
+
+### About
+![](https://github.com/BonganiMaila/BJ-Photography/blob/main/BJ-Photography/screenshots/about.png)
+
 
 
 
 ## Contributors
 
-### Bongani Maila - 2020
-## still working on this project
+### Bongani Maila - 2021
+
