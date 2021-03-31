@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.nav {
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    height: 95px;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+    color: #000;
+}
+
+.nav.active .container {
+    padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+    color: #c0392b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('../pictures/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+.hero-services {
+    background-image: url('../pictures/view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+
+/*containers*/
+
+.container-2 {
+    padding-top: 20%;
+    width: 300px;
+}
+
+.container-3 {
+    padding-top: 10%;
+    width: 600px;
+}
+
+
+/*columns*/
+
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    background-color: #fff;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #fff;
+}
+
+.milestones-section {
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+.fact-content {
+    margin-top: 100px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/*form*/
+
+#form_container {
+    padding: 15px 15px;
+    margin-top: 15px;
+    color: black;
+    width: 600px;
+    height: 550px;
+}
+
+#reused_form {
+    width: 500px;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+/*photos*/
+
+#photo1 {
+    background-image: url('../pictures/baby.jpg');
+    height: 400px;
+    border: 1px solid white;
+    background-position: center;
+}
+
+#photo2 {
+    background-image: url('../pictures/party.jpg');
+    height: 400px;
+    border: 1px solid white;
+    background-position: center;
+}
+
+#photo3 {
+    background-image: url('../pictures/soccer.jpg');
+    height: 400px;
+    border: 1px solid white;
+    background-position: center;
+}
+
+#photo4 {
+    background-image: url('../pictures/wedding.jpg');
+    height: 400px;
+    border: 1px solid white;
+    background-position: center;
+}
+
+#photo5 {
+    background-image: url('../pictures/hero.jpg');
+    height: 400px;
+    border: 1px solid white;
+    background-position: center;
+}
+
+#photo6 {
+    background-image: url('../pictures/events.jpg');
+    height: 400px;
+    border: 1px solid white;
+    background-position: center;
+}
+
+#photo7 {
+    background-image: url('../pictures/photoshoot.jpg');
+    height: 400px;
+    border: 1px solid white;
+    background-position: center;
+}
+
+.photo {
+    padding-top: 50%;
+}
+
+.photo a {
+    text-decoration: none;
+    color: white;
+}
+
+#services {
+    background-image: url(../pictures/cloud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    width: 200vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+
+/*footer*/
+
+.footer-section {
+    background-color: black;
+    color: white;
+    height: 250px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+
+/*header*/
+
+.header-section {
+    padding-bottom: 7%;
+}
